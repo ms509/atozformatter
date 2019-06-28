@@ -1,0 +1,36 @@
+.header{
+  height: 50px;
+  background-color: #0077BE;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.links{
+  margin-left: 24px;
+  margin-right: 24px;
+  list-style-type: none;
+  text-align: right;
+
+  & a:link {
+    text-decoration: none;
+  }
+
+}
+
+.menu{
+  width: 50%;
+  color:white;
+}
+
+.spacing{
+  width: 50%;
+}
+
+.menu-link {
+  color: white;
+}
+
+

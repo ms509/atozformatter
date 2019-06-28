@@ -1,0 +1,37 @@
+.json-formatter{
+  width: 100%;
+  display: inline-block;
+  margin: 24px;
+}
+
+.json-data{
+  width: 100%;
+}
+.json-input{
+  width: 75%;
+  justify-content: flex-start;
+  font-size: medium;
+  font-family: "Times New Roman";
+
+}
+
+.validate-json{
+  justify-content: left;
+}
+
+.title {
+  font-family: "Times New Roman";
+  color: purple;
+}
+
+
+button {
+  margin-top: 24px;
+  background-color: purple;
+  color: white;
+  font-size: medium;
+  width: 150px;
+  height: 50px;
+  counter-reset: none;
+  text-align: center;
+}

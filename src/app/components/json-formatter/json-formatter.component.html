@@ -1,0 +1,9 @@
+
+<h1 class="title">JSON Formatter</h1>
+<div class="json-formatter">
+  <section class="json-data">
+    <textarea #data id="json-data" class="json-input" rows=30 scroll="true" [(ngModel)]="jsonData"></textarea>
+  </section>
+
+  <button (click)="formatJson(data.value)">Format JSON</button>
+</div>
