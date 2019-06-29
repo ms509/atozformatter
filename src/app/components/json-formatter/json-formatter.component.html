@@ -1,9 +1,21 @@
 
-<h1 class="title">JSON Formatter</h1>
+
 <div class="json-formatter">
+  <h1 class="title">JSON Formatter</h1>
   <section class="json-data">
     <textarea #data id="json-data" class="json-input" rows=25 scroll="true" [(ngModel)]="jsonData"></textarea>
   </section>
 
+  <section class="form-submit">
   <button (click)="formatJson(data.value)">Format JSON</button>
+  </section>
+</div>
+
+<div class="info-section">
+  <div class="question">
+    What is JSON Formatter?
+  </div>
+  <div class="answer">
+    JSON Formatter is a tool created to help the developers to read the json easily. copy and paste the json data in the editor and hit <b>"Format Json"</b>
+  </div>
 </div>

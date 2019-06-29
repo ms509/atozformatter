@@ -1,11 +1,12 @@
 .json-formatter{
   width: 100%;
   display: inline-block;
-  margin: 24px;
+  background-color: chocolate;
 }
 
 .json-data{
   width: 100%;
+  text-align: center;
 }
 .json-input{
   width: 75%;
@@ -21,17 +22,45 @@
 
 .title {
   font-family: "Times New Roman";
-  color: purple;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
 }
 
 
 button {
-  margin-top: 24px;
-  background-color: purple;
-  color: white;
+  background-color: white;
+  color: purple;
   font-size: medium;
   width: 150px;
   height: 50px;
   counter-reset: none;
+  text-align: center;
+  align: center;
+  margin: 24px;
+}
+
+.info-section{
+  background-color: #FFFAFA;
+  height: 100px;
+  color: black;
+  margin-left: 50px;
+  font-family: Arial;
+
+  & .question{
+    color: purple;
+    font-size: x-large;
+  }
+
+  & .answer{
+    color: black;
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.form-submit{
+  width: 100%;
   text-align: center;
 }
